@@ -1,0 +1,8 @@
+[cosmic-ray]
+module-path = "src/acc_KG_confuse.py"
+timeout = 100
+excluded-modules = []
+test-command = "python test/unittest_3_05.py"
+
+[cosmic-ray.distributor]
+name = "local"

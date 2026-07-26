@@ -1,0 +1,8 @@
+[cosmic-ray]
+module-path = "src/att_relation_independence.py"
+timeout = 100
+excluded-modules = []
+test-command = "python test/unittest_3_27.py"
+
+[cosmic-ray.distributor]
+name = "local"

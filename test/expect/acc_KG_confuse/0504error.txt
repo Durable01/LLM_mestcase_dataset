@@ -1,0 +1,12 @@
+{
+    "type": "object",
+    "properties": {
+        "timestamp": {"type": "number"},
+        "knowid": {"const": "1024768"},
+        "componentid": {"const": "acc_KG_confuse"},
+        "exception": {"const": "notice"},
+        "type": {"const": 2},
+        "information": {"type": "string"}
+    },
+    "required": ["timestamp", "knowid", "componentid", "exception", "type"]
+}

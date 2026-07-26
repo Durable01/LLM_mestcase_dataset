@@ -1,0 +1,13 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+        "timestamp": {"type": "number"},
+        "knowid": {"type": "string", "const": "1024768"},
+        "componentid": {"type": "string", "const": "att_unit_irrationality"},
+        "exception": {"type": "string", "const": "notice"},
+        "type": {"type": "integer", "const": 9},
+        "information": {"type": "string"}
+    },
+    "required": ["timestamp","knowid","componentid","exception","type","information"]
+}

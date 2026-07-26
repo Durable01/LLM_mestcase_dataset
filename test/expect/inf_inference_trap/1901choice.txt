@@ -1,0 +1,20 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$defs": {
+        "id": {"type": "string", "pattern": "^[0-9]+$", "maxLength": 30}
+    },
+    
+    "type": "object",
+    "properties": {
+        "id": {
+            "type": "string",
+            "pattern": "^102476819[0-9]*$",
+            "maxLength": 30
+        },
+        "text": {"type": "string"},
+        "value": {"const": false},
+        "evaluation": {"const": 5},
+        "cataid": {"const": "103500"}
+    },
+    "required": ["id", "text", "value", "evaluation", "cataid"]
+}

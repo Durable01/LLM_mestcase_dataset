@@ -1,0 +1,12 @@
+{
+    "type": "object",
+    "properties": {
+        "timestamp": {"type": "number"},
+        "knowid": {"const": "1024768"},
+        "componentid": {"const": "rob_synonym_algorithm"},
+        "exception": {"const": "notice"},
+        "type": {"const": 5},
+        "information": {"type": "string"}
+    },
+    "required": ["timestamp", "knowid", "componentid", "exception", "type"]
+}

@@ -1,0 +1,28 @@
+{
+    "type": "object",
+    "properties": {
+        "timestamp": {
+            "type": "number"
+        },
+        "knowid": {
+            "type": "string",
+            "const": "571800"
+        },
+        "componentid": {
+            "type": "string",
+            "const": "att_relation_independence"
+        },
+        "exception": {
+            "type": "string",
+            "const": "error"
+        },
+        "type": {
+            "type": "number",
+            "const": 3
+        },
+        "information": {
+            "type": "string"
+        }
+    },
+    "required": ["timestamp", "knowid", "componentid", "exception", "type", "information"]
+}

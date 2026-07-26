@@ -1,0 +1,24 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$defs": {
+        "id": {"type": "string", "pattern": "^[0-9]+$", "maxLength": 30}
+    },
+    "type": "object",
+    "properties": {
+        "id": {"type": "string"},
+        "text": {
+            "type": "string",
+            "minLength": 0
+        },
+        "value": {
+            "type": "boolean",
+            "const": true
+        },
+        "evaluation": {
+            "type": "integer",
+            "const": 2
+        },
+        "cataid": {"$ref": "#/$defs/id"}
+    },
+    "required": ["id", "text", "value", "evaluation", "cataid"]
+}

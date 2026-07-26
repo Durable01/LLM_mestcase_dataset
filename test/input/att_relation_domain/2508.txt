@@ -1,0 +1,15 @@
+{
+    "knowid": "571800",
+    "knowstr": "桩程序给出的并置关系头：并置关系1，并置关系2，并置关系3，并置关系4，并置关系5，并置关系6",
+    "knowcata": "123456",
+    "knowentity": {},
+    "knowtree": {},
+    "entityrelation": {},
+    "parallelrelation": [
+        {"Parallel": "并置关系1"},
+        {"Parallel": "并置关系2"}
+    ],
+    "inference": {},
+    "isdebug": true,
+    "get_parallel_head_error": false
+}

@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+# Environment
+.env
+*.env
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+log/
+*.log
+
+# Test output (regenerated on run)
+test/output/
+
+# Mutation test generated files
+mutation_test/__pycache__/
+mutation_test/references/__pycache__/
+mutation_test/output/
+mutation_test/mut_db/
+
+# OS files
+Thumbs.db
+.DS_Store

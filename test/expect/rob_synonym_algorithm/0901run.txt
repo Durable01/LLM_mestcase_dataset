@@ -1,0 +1,21 @@
+{
+    "type": "object",
+    "properties": {
+        "timestamp": {
+            "type": "number"
+        },
+        "knowid": {
+            "type": "string",
+            "const": "1024768"
+        },
+        "componentid": {
+            "type": "string",
+            "const": "rob_synonym_algorithm"
+        },
+        "genamount": {
+            "type": "integer",
+            "minimum": 0
+        }
+    },
+    "required": ["timestamp", "knowid", "componentid", "genamount"]
+}

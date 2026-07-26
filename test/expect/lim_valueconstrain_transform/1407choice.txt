@@ -1,0 +1,43 @@
+{
+	"$schema": "http://json-schema.org/draft-07/schema#",
+	"$defs": {
+		"id": {
+			"type": "string",
+			"pattern": "^[0-9]+$",
+			"maxLength": 30
+		}
+	},
+	"type": "object",
+	"properties": {
+		"id": {
+			"type": "string"
+		},
+		"text": {
+			"type": "string",
+			"oneOf":[
+               {
+                "pattern": "^如果仪器仪表采用塑料外壳，那么外壳表面绝缘电阻小于等于(?!1$)\\d+TΩ$"
+               },
+               {
+                "pattern": "^如果仪器仪表采用塑料外壳，那么外壳表面绝缘电阻(?!小于等于$).+1TΩ$"
+               },
+               {
+                "pattern": "^如果仪器仪表采用塑料外壳，那么外壳表面绝缘电阻小于等于1(?!TΩ$).+$"
+               }
+			],
+			"minLength": 0
+		},
+		"value": {
+			"type": "boolean",
+			"const": false
+		},
+		"evaluation": {
+			"type": "integer",
+			"const": 6
+		},
+		"cataid": {
+			"$ref": "#/$defs/id"
+		}
+	},
+	"required": ["id", "text", "value", "evaluation", "cataid"]
+}

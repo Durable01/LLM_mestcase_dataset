@@ -1,0 +1,29 @@
+{
+    "knowid": "1024768",
+    "knowstr": "如果仪器仪表采用塑料外壳，外壳表面绝缘电阻不应超过50GΩ。",
+    "knowcata": "1024768",
+    "inference": {
+        "antecedent": {
+            "cond": {
+                "entity": "仪器仪表",
+                "bool": true,
+                "constraint": {
+                    "verb": "采用",
+                    "entity": ["塑料外壳"]
+                }
+            }
+        },
+        "consequence": {
+            "cond": {
+                "entity": "外壳表面绝缘电阻",
+                "bool": false,
+                "constraint": {
+                    "compare": "belowequal",
+                    "index": 50,
+                    "unit": "GΩ"
+                }
+            }
+        }
+    },
+    "isdebug": false
+}

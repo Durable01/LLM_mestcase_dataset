@@ -1,0 +1,31 @@
+{
+    "knowid": "1024768",
+    "knowstr": "如果仪器仪表绝缘电阻大于1GΩ，外壳表面绝缘电阻应小于1GΩ。",
+    "knowcata": "103500",
+    "inference": {
+        "antecedent": {
+            "cond": {
+                "entity": "仪器仪表绝缘电阻",
+                "bool": true,
+                "constraint": {
+                    "compare": "large",
+                    "index": 1,
+                    "unit": "GΩ"
+                }
+            }
+        },
+        "consequence": {
+            "cond": {
+                "entity": "外壳表面绝缘电阻",
+                "bool": true,
+                "constraint": {
+                    "compare": "below",
+                    "index": 1,
+                    "unit": "GΩ"
+                }
+            }
+        }
+    },
+    "api_key": "invalid_key",
+    "isdebug": true
+}

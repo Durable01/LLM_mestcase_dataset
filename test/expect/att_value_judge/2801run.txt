@@ -1,0 +1,21 @@
+{
+    "type": "object",
+    "properties": {
+        "timestamp": {
+            "type": "number"
+        },
+        "knowid": {
+            "type": "string",
+            "const": "1024768"
+        },
+        "componentid": {
+            "type": "string",
+            "const": "att_value_judge"
+        },
+        "genamount": {
+            "type": "integer",
+            "const": 4
+        }
+    },
+    "required": ["timestamp", "knowid", "componentid", "genamount"]
+}

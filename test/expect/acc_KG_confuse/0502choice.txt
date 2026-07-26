@@ -1,0 +1,33 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$defs": {
+        "id": {"type": "string", "pattern": "^[0-9]+$", "maxLength": 30}
+    },
+    "type": "object",
+    "properties": {
+        "id": {"type": "string"},
+        "text": {
+            "type": "string",
+            "enum":
+            [
+            "相似实体1，是标准能源的一种表示方法，是指热值为7000千卡/千克（公斤）的煤炭。",
+            "相似实体2，是标准能源的一种表示方法，是指热值为7000千卡/千克（公斤）的煤炭。",
+            "标准煤，是标准能源的一种表示方法，是指热值为7000千卡/千克（公斤）的相似实体1。",
+            "标准煤，是标准能源的一种表示方法，是指热值为7000千卡/千克（公斤）的相似实体2。",
+            "标准煤，是标准能源的一种表示方法，是指热值为相似实体1的煤炭。",
+            "标准煤，是标准能源的一种表示方法，是指热值为相似实体2的煤炭。"
+            ],
+            "minLength": 0
+        },
+        "value": {
+            "type": "boolean",
+            "const": false
+        },
+        "evaluation": {
+            "type": "integer",
+            "const": 1
+        },
+        "cataid": {"$ref": "#/$defs/id"}
+    },
+    "required": ["id", "text", "value", "evaluation", "cataid"]
+}

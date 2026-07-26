@@ -1,0 +1,28 @@
+{
+    "knowid": "1024768",
+    "knowstr": "如果仪器仪表采用塑料外壳，外壳表面绝缘电阻应采用塑料外壳。",
+    "knowcata": "103500",
+    "inference": {
+        "antecedent": {
+            "cond": {
+                "entity": "仪器仪表",
+                "bool": true,
+                "constraint": {
+                    "verb": "采用",
+                    "entity": ["塑料外壳"]
+                }
+            }
+        },
+        "consequence": {
+            "cond": {
+                "entity": "外壳表面绝缘电阻",
+                "bool": true,
+                "constraint": {
+                    "verb": "采用",
+                    "entity": ["塑料外壳"]
+                }
+            }
+        }
+    },
+    "isdebug": true
+}

@@ -1,0 +1,11 @@
+{
+    "knowid": "1024768",
+    "knowstr": "仪器仪表采用塑料外壳时, 外壳表面绝缘电阻不应超过1GΩ。",
+    "knowcata": "103500",
+    "knowentity": {},
+    "knowtree": {},
+    "entityrelation": {},
+    "parallelrelation": [],
+    "inference": {},
+    "isdebug": true
+}

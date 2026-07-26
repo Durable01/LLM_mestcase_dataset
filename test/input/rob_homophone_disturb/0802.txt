@@ -1,0 +1,158 @@
+{
+	"knowid": "1024768",
+	"knowstr": "标准煤，是标准能源的一种表示方法，是指热值为7000千卡/千克 (公斤) 的煤炭。",
+	"knowcata": "103500",
+	"knowentity": {},
+	"knowtree": {
+		"start": 0,
+		"end": 41,
+		"nodetype": "S",
+		"children": [{
+				"start": 0,
+				"end": 3,
+				"nodetype": "NP",
+				"children": [{
+					"start": 0,
+					"end": 3,
+					"nodetype": "NN",
+					"children": []
+				}]
+			},
+			{
+				"start": 3,
+				"end": 4,
+				"nodetype": "PU",
+				"children": []
+			},
+			{
+				"start": 4,
+				"end": 5,
+				"nodetype": "VC",
+				"children": []
+			},
+			{
+				"start": 5,
+				"end": 18,
+				"nodetype": "NP",
+				"children": [{
+						"start": 5,
+						"end": 9,
+						"nodetype": "NN",
+						"children": []
+					},
+					{
+						"start": 9,
+						"end": 10,
+						"nodetype": "DEG",
+						"children": []
+					},
+					{
+						"start": 10,
+						"end": 12,
+						"nodetype": "CD",
+						"children": []
+					},
+					{
+						"start": 12,
+						"end": 16,
+						"nodetype": "NN",
+						"children": []
+					},
+					{
+						"start": 16,
+						"end": 17,
+						"nodetype": "PU",
+						"children": []
+					},
+					{
+						"start": 17,
+						"end": 18,
+						"nodetype": "VC",
+						"children": []
+					}
+				]
+			},
+			{
+				"start": 18,
+				"end": 19,
+				"nodetype": "VV",
+				"children": []
+			},
+			{
+				"start": 19,
+				"end": 35,
+				"nodetype": "VP",
+				"children": [{
+						"start": 19,
+						"end": 21,
+						"nodetype": "NN",
+						"children": []
+					},
+					{
+						"start": 21,
+						"end": 22,
+						"nodetype": "VC",
+						"children": []
+					},
+					{
+						"start": 22,
+						"end": 26,
+						"nodetype": "CD",
+						"children": []
+					},
+					{
+						"start": 26,
+						"end": 28,
+						"nodetype": "M",
+						"children": []
+					},
+					{
+						"start": 28,
+						"end": 29,
+						"nodetype": "PU",
+						"children": []
+					},
+					{
+						"start": 29,
+						"end": 31,
+						"nodetype": "M",
+						"children": []
+					},
+					{
+						"start": 31,
+						"end": 34,
+						"nodetype": "PU",
+						"children": []
+					},
+					{
+						"start": 34,
+						"end": 35,
+						"nodetype": "DEG",
+						"children": []
+					}
+				]
+			},
+			{
+				"start": 35,
+				"end": 37,
+				"nodetype": "NP",
+				"children": [{
+					"start": 35,
+					"end": 37,
+					"nodetype": "NN",
+					"children": []
+				}]
+			},
+			{
+				"start": 37,
+				"end": 38,
+				"nodetype": "PU",
+				"children": []
+			}
+		]
+	},
+	"entityrelation": {},
+	"parallelrelation": {},
+	"inference": {},
+	"isdebug": true
+}

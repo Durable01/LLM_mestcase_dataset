@@ -1,0 +1,8 @@
+[cosmic-ray]
+module-path = "src/inf_single_inference.py"
+timeout = 100
+excluded-modules = []
+test-command = "python test/unittest_3_17.py"
+
+[cosmic-ray.distributor]
+name = "local"

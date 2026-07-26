@@ -1,0 +1,12 @@
+{
+    "type": "object",
+    "properties": {
+        "timestamp": {"type": "number"},
+        "knowid": {"const": "1024768"},
+        "componentid": {"const": "inf_inference_trap"},
+        "exception": {"const": "warning"},
+        "type": {"const": 1},
+        "information": {"type": "string"}
+    },
+    "required": ["timestamp", "knowid", "componentid", "exception", "type"]
+}

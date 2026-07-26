@@ -1,0 +1,11 @@
+{
+    "knowid": "1024768",
+    "knowstr": "标准煤，是标准能源的一种表示方法，是指热值为7000千卡/千克（公斤）的煤炭。",
+    "knowcata": "103500",
+    "knowentity": {},
+    "knowtree": {},
+    "entityrelation": [],
+    "parallelrelation": [],
+    "inference": {},
+    "isdebug": false
+}

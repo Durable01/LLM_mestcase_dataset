@@ -1,0 +1,8 @@
+[cosmic-ray]
+module-path = "src/att_value_judge.py"
+timeout = 100
+excluded-modules = []
+test-command = "python test/unittest_3_28.py"
+
+[cosmic-ray.distributor]
+name = "local"

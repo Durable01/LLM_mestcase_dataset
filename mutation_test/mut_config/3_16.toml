@@ -1,0 +1,8 @@
+[cosmic-ray]
+module-path = "src/lim_LLMgenerate_mask.py"
+timeout = 100
+excluded-modules = []
+test-command = "python test/unittest_3_16.py"
+
+[cosmic-ray.distributor]
+name = "local"

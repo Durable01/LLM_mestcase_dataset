@@ -1,0 +1,15 @@
+{
+	"knowid": "1024768",
+	"knowstr": "煤矿工人需要定期检查巷道顶板的稳定性，防止冒顶事故。",
+	"knowcata": "001",
+	"knowentity": [
+		{
+			"entity":"工人",
+			"wordtype":0,
+			"position":2
+		}
+	],
+	"knowtree": {},
+	"isdebug": false,
+	"GET_ENTITES_ERROR": true
+}

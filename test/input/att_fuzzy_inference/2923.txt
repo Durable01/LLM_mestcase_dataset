@@ -1,0 +1,30 @@
+{
+    "knowid": "1024768",
+    "knowstr": "外壳表面绝缘电阻不低于1GΩ时，仪器仪表采用塑料外壳。",
+    "knowcata": "103500",
+    "inference": {
+        "antecedent": {
+            "cond": {
+                "entity": "外壳表面绝缘电阻",
+                "bool": true,
+                "constraint": {
+                    "compare": "largeequal",
+                    "index": 1,
+                    "unit": "GΩ"
+                }
+            }
+        },
+        "consequence": {
+            "cond": {
+                "entity": "仪器仪表",
+                "bool": true,
+                "constraint": {
+                    "verb": "采用",
+                    "entity": ["塑料外壳"]
+                }
+            }
+        }
+    },
+    "api_key": "invalid_key",
+    "isdebug": false
+}
